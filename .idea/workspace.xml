@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Fix Lesson 1 homework">
-      <change afterPath="$PROJECT_DIR$/Lesson 3.py" afterDir="false" />
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 4 homework">
+      <change afterPath="$PROJECT_DIR$/Lesson 5.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Lesson 2.executor": "Run",
     "Python.Lesson 3.executor": "Run",
+    "Python.Lesson 4.executor": "Run",
+    "Python.Lesson 5.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -104,23 +106,30 @@
       <option name="project" value="LOCAL" />
       <updated>1762884519786</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Lesson 3 homework">
+      <option name="closed" value="true" />
+      <created>1763107970593</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763107970593</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Lesson 4 homework">
+      <option name="closed" value="true" />
+      <created>1763392289273</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763392289273</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create README file" />
     <MESSAGE value="Added Lesson 1 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lesson 1 homework" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lesson 3.py</url>
-          <line>89</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Add Lesson 3 homework" />
+    <MESSAGE value="Add Lesson 4 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 4 homework" />
   </component>
 </project>

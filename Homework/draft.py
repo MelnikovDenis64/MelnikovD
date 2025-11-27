@@ -44,6 +44,8 @@ text = input("Введи строку: ")
 text_len = len(text)
 print("Длина строки = " + str(text_len))
 
+
+
 print("Длина строки = " + str(len(input("Введи строку: "))))
 
 

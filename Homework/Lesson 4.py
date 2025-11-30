@@ -263,3 +263,49 @@ list1 = [1, 2, 3, 4, 5]
 list2 = [10, 20, 30]
 list_result = list1[:3] + list2 + list1[3:]
 print(list_result)
+
+# Задача 1.
+#
+# Дан список letters = ['a', 'b', 'd']. Добавьте букву 'c' между 'b' и 'd'.
+
+letters = ['a', 'b', 'd']
+letters.insert(2, 'c')
+print(letters)
+
+
+# Задача 2.
+#
+# Дан список numbers = [1, 2, 3, 4, 5, 6, 7]. Создайте новый список, который содержит только элементы с третьего по пятый (включительно).
+#
+# Напишите ваш код.
+
+numbers = [1, 2, 3, 4, 5, 6, 7]
+numbers_slice =  numbers[2:5]
+print(numbers_slice)
+
+# Задача 3.
+#
+# Дан список items = ['book', 'pen', 'phone', 'key']. Удалите элемент 'pen' из этого списка.
+#
+# Напишите ваш код.
+
+items = ['book', 'pen', 'phone', 'key']
+items.remove('pen')
+
+# Задача 5.
+#
+# Дан список colors = ['red', 'blue', 'yellow']. Замените элемент 'yellow' на 'green'.
+
+colors = ['red', 'blue', 'yellow']
+colors[2] = "green"
+print(colors)
+
+# Задача 6.
+#
+# Даны два списка: list1 = [1, 2, 3] и list2 = [4, 5, 6]. Объедините их в один список combined_list.
+#
+# Напишите ваш код.
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined_list = list1 + list2

@@ -78,3 +78,45 @@ result_bool = 1 in bag.values()
 # Создай пустой словарь с именем my_dict.
 
 my_dict = {}
+
+# Задача 1.
+#
+# Дан словарь fruit_colors = {'apple': 'red', 'banana': 'yellow', 'grape': 'purple'}. Удалите элемент с ключом 'banana'.
+
+fruit_colors = {'apple': 'red', 'banana': 'yellow', 'grape': 'purple'}
+del fruit_colors['banana']
+
+# Задача 2.
+#
+# Дан словарь person = {'name': 'Anna', 'age': 25}. Добавьте ключ 'city' со значением 'Moscow'.
+
+person = {'name': 'Anna', 'age': 25}
+person["city"] = "Moscow"
+print(person)
+
+# Задача 4.
+#
+# Дан словарь inventory = {'apples': 5, 'oranges': 3, 'bananas': 7}. Проверьте, есть ли ключ 'oranges' в словаре.
+#
+# Напишите ваш код.
+
+inventory = {'apples': 5, 'oranges': 3, 'bananas': 7}
+"oranges" in inventory
+
+# Задача 5.
+#
+# Дан словарь country_capitals = {'Russia': 'Moscow', 'France': 'Paris', 'Japan': 'Tokyo'}. Выведите все ключи словаря.
+#
+# Напишите ваш код.
+
+country_capitals = {'Russia': 'Moscow', 'France': 'Paris', 'Japan': 'Tokyo'}
+print(country_capitals.keys())
+
+# Задача 6.
+#
+# Дан словарь car = {'brand': 'Toyota', 'model': 'Camry', 'year': 2020}. Выведите значение ключа 'model'.
+#
+# Напишите ваш код.
+
+car = {'brand': 'Toyota', 'model': 'Camry', 'year': 2020}
+print(car["model"])

@@ -59,10 +59,30 @@ with open("lines.txt", "w", encoding='utf-8') as file:
 # Для работы с файлом обязательно используйте контекстный менеджер with.
 
 lines = []
-with open("list.txt", "r", encoding='utf-8') as file:
+with open("lines.txt", "r", encoding='utf-8') as file:
     for line in file:
         lines.append(line)
 print(lines)
 
+# Задача 1.
+#
+# Используя конструкцию with, откройте файл notes.txt для записи и запишите в него строку "First note".
 
+with open("lines.txt", "w", encoding='utf-8') as file:
+    file.write("First note")
 
+# Задача 3.
+#
+# Используя конструкцию with, откройте файл info.txt для чтения и выведите его содержимое.
+
+with open("lines.txt", "r", encoding='utf-8') as file:
+    print(file.read())
+
+# Задача 4.
+#
+# Добавьте строку "New line" в конец файла data.txt (файл может существовать или быть созданным).
+
+with open("data.txt", "a+", encoding='utf-8') as file:
+    file.write("New line")
+    file.seek(0)
+    print(file.read())

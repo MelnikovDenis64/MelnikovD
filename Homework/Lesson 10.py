@@ -252,6 +252,66 @@ class Employee:
 emp1 = Employee("Алексей", "Инженер")
 emp1.introduce()
 
+# Задача 10 (повторение и комбинирование)
+#
+# Создайте класс Student, который представляет студента.
+#
+# Требования:
+#
+# Общий атрибут класса university со значением "National University".
+#
+# Конструктор принимает name (имя студента) и student_id (номер студенческого билета). Инициализирует атрибуты name и student_id объекта.
+#
+# Метод add_grade(self, subject, grade) – добавляет оценку по предмету. Предметы и оценки храните в словаре self.grades,
+# где ключ – название предмета (строка), значение – оценка (целое число). Если словаря ещё нет, создайте его в конструкторе (или при первом добавлении).
+# Метод должен обновлять словарь и печатать: "Добавлена оценка {grade} по предмету {subject}".
+#
+# Метод get_average(self) – возвращает средний балл студента по всем предметам (округлить до двух знаков после запятой). Если оценок нет, возвращает 0.
+#
+# Метод show_info(self) – выводит информацию в формате:
+#
+# text
+# Student: {self.name}
+# ID: {self.student_id}
+# University: {self.university}
+# Grades: {self.grades}
+# Average: {средний балл}
+# Пример использования:
+#
+# python
+# stud = Student("Anna Petrova", "ST123")
+# stud.add_grade("Math", 85)
+# stud.add_grade("Physics", 92)
+# print(stud.get_average())  # 88.5
+# stud.show_info()
+# Напишите код класса Student, реализующий все указанные требования.
+
+
+class Student:
+    university = "National University"
+    def __init__(self, name, student_id):
+        self.name = name
+        self.student_id = student_id
+        self.grades = {}
+    def add_grade(self, subject, grade):
+        self.grades[subject] = grade
+        print(f"Добавлена оценка {grade} по предмету {subject}")
+    def get_average(self):
+        return sum(self.grades.values()) / len(self.grades)
+    def show_info(self):
+        print(f"""Student: {self.name}
+ID: {self.student_id}
+University: {self.university}
+Grades: {self.grades}
+Average: {self.get_average()}""")
+
+
+stud = Student("Anna Petrova", "ST123")
+stud.add_grade("Math", 85)
+stud.add_grade("Physics", 92)
+print(stud.get_average())
+stud.show_info()
+
 
 
 

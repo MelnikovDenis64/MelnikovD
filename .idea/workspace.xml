@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add homework lesson 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework/Lesson 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Lesson 10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/Complex tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/Consolidation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,27 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Combining lessons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Complex tasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.draft.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Combining lessons.executor": "Run",
+    "Python.Complex tasks.executor": "Run",
+    "Python.Consolidation.executor": "Run",
+    "Python.Lesson 10.executor": "Run",
+    "Python.Lesson 2.executor": "Run",
+    "Python.Lesson 3.executor": "Run",
+    "Python.Lesson 4.executor": "Run",
+    "Python.Lesson 5.executor": "Run",
+    "Python.Lesson 6.executor": "Run",
+    "Python.Lesson 7.executor": "Run",
+    "Python.Lesson 8.executor": "Run",
+    "Python.Lesson 9.executor": "Run",
+    "Python.draft.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD\Homework" />
@@ -215,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765033307775</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add homework lesson 10">
+      <option name="closed" value="true" />
+      <created>1765131944222</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765131944222</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

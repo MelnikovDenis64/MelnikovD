@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Added Lesson 2, 3 homework (Selenium)">
-      <change afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 4.py" afterDir="false" />
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Added Lesson 4 homework (Selenium)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Consolidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework Python/Consolidation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767616964489</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added Lesson 4 homework (Selenium)">
+      <option name="closed" value="true" />
+      <created>1768148878895</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1768148878895</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -289,6 +297,7 @@
     <MESSAGE value="Added tasks for consolidation" />
     <MESSAGE value="Added exam.py" />
     <MESSAGE value="Added Lesson 2, 3 homework (Selenium)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Lesson 2, 3 homework (Selenium)" />
+    <MESSAGE value="Added Lesson 4 homework (Selenium)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Lesson 4 homework (Selenium)" />
   </component>
 </project>

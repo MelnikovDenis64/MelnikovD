@@ -1,6 +1,7 @@
 # Комплексная задача 1.
 # Словарь + строки - Создай словарь person с ключами name (строка), age (число), city (строка).
 # Затем используй f-строку чтобы вывести: "Имя: [name], Возраст: [age], Город: [city]"
+import time
 
 person = {"name": "Denis",
            "age": 25,
@@ -368,3 +369,225 @@ i_student.add_grade(20)
 print(i_student.grades)
 
 
+
+# Напишите функцию starts_with, которая принимает два аргумента: строку text и строку prefix.
+# Функция должна возвращать True, если text начинается с подстроки prefix, и False в противном случае.
+# Используйте срезы строк для сравнения.
+
+def starts_with(text, prefix):
+    number = len(prefix)
+    prefix_text = text[:number]
+    return prefix_text == prefix
+
+
+# Создайте класс Book.
+# В конструкторе (__init__) инициализируйте три атрибута объекта: title (название, строка), author (автор, строка),
+# pages (количество страниц, целое число).
+# Добавьте метод description, который возвращает строку в формате: "<название>", автор: <автор>, страниц: <pages>.
+#
+# После определения класса создайте объект этого класса с данными:
+# title="1984", author="George Orwell", pages=328.
+# Вызовите у этого объекта метод description и выведите результат на экран.
+
+class Book:
+    def __init__(self, title, author, pages):
+        self.title = title
+        self.author = author
+        self.pages = pages
+    def description(self):
+        return f"\"{self.title}\", автор: {self.author}, страниц: {self.pages}"
+
+my_book = Book("1984", "George Orwell", 328)
+print(my_book.description())
+
+
+# Дан словарь:
+# data = {"apple": 5, "banana": 2, "cherry": 8, "date": 1}
+#
+# Добавьте в словарь новый элемент с ключом "fig" и значением 4.
+#
+# Увеличьте значение для ключа "banana" на 3 (т.е. обновите его).
+#
+# Используя цикл for, выведите на экран только те ключи, у которых значение больше или равно 5, в формате:
+# Ключ: <ключ>, Значение: <значение>
+# Каждая пара — на новой строке.
+#
+# Примечание: Для проверки условия используйте оператор сравнения внутри цикла.
+
+data = {"apple": 5, "banana": 2, "cherry": 8, "date": 1}
+data["fig"] = 4
+data["banana"] += 3
+
+for key, value in data.items():
+    if value >= 5:
+        print(f"Ключ: {key}, Значение: {value}")
+    else:
+        continue
+
+
+# Напишите декоратор timer, который измеряет время выполнения функции и выводит его в секундах с сообщением:
+# "Функция выполнялась <время> сек."
+#
+# Для измерения времени импортируйте модуль time и используйте time.time() до вызова функции и после.
+# Декоратор должен возвращать результат исходной функции.
+#
+# Примените декоратор к простой функции sum_list, которая принимает список чисел и возвращает их сумму.
+
+def timer(func):
+    def wrapper(*args, **kwargs):
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        print(f"Функция выполнялась {end_time - start_time} сек.")
+        return result
+    return wrapper
+
+@timer
+def sum_list(a, b, c, d, e):
+    return a + b + c + d + e
+
+print(sum_list(1, 2, 3, 4, 5))
+
+
+# Создайте текстовый файл notes.txt и запишите в него три строки:
+#
+# text
+# Первая строка.
+# Вторая строка.
+# Третья строка.
+# Затем, используя контекстный менеджер with, откройте этот файл для чтения, прочитайте все строки в список и выведите на экран:
+#
+# Количество строк в файле (используйте функцию len).
+#
+# Саму последнюю строку файла (вспомните индексацию списка).
+
+with open("notes.txt", "w", encoding='utf-8') as file:
+    file.write("Первая строка.\nВторая строка.\nТретья строка.")
+
+with open("notes.txt", "r", encoding='utf-8') as file:
+    string_file = []
+    for line in file:
+        string_file.append(line.strip())
+    print(len(string_file))
+    print(string_file[-1])
+
+
+# Напишите код, который:
+#
+# Создаёт список numbers = [12, 7, 19, 3, 14, 10].
+#
+# С помощью цикла for и условного оператора if формирует новый список even_squares, содержащий квадраты только тех чисел из numbers,
+# которые являются чётными.
+#
+# Используя f-строку, выводит результат в формате:
+# Чётные числа в квадрате: [список].
+
+numbers = [12, 7, 19, 3, 14, 10]
+even_squares = []
+for number in numbers:
+    if number % 2 == 0:
+        even_squares.append(number**2)
+print(f"Чётные числа в квадрате: {even_squares}")
+
+
+# Создайте базовый класс Animal (Животное).
+# В его конструкторе (__init__) должен быть один параметр name (имя животного), который сохраняется в атрибут self.name.
+# Также в классе Animal определите метод make_sound, который возвращает строку "Some generic sound".
+#
+# Затем создайте дочерний класс Dog (Собака), который наследует от Animal.
+# В классе Dog переопределите метод make_sound, чтобы он возвращал строку "Woof!".
+#
+# После этого:
+#
+# Создайте объект класса Dog с именем "Rex".
+#
+# Вызовите у этого объекта метод make_sound и выведите результат на экран.
+#
+# Также выведите на экран значение атрибута name этого объекта.
+
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+    def make_sound(self):
+        return "Some generic sound"
+
+class Dog(Animal):
+    def make_sound(self):
+        return "Woof!"
+
+my_dog = Dog("Rex")
+print(my_dog.make_sound())
+print(my_dog.name)
+
+
+# Создайте строку text = "Automation with Python".
+# С помощью срезов получите из неё три подстроки и сохраните их в переменные:
+#
+# first_word — первое слово (до первого пробела).
+#
+# last_word — последнее слово (после последнего пробела).
+#
+# middle — фраза, которая начинается со второго символа исходной строки и заканчивается предпоследним символом включительно.
+#
+# Затем, используя f-строку, выведите результат в формате:
+# Слова: <первое слово> - <последнее слово>. Средняя часть: <middle>
+
+text = "Automation with Python"
+sep_string = text.split(" ")
+first_word = sep_string[0]
+last_word = sep_string[2]
+middle = text[1:-1]
+print(f"Слова: {first_word} - {last_word}. Средняя часть: {middle}")
+
+
+# Напишите код, который:
+#
+# Запрашивает у пользователя целое число с помощью input() и преобразует его в тип int.
+#
+# Используя тернарный оператор, определяет, является ли это число чётным.
+#
+# Результат тернарного оператора сохраните в переменную result. Он должен быть строкой: "чётное" или "нечётное".
+#
+# Используя f-строку, выведите сообщение: "Число <число> — <result>.".
+
+number = int(input("Число: "))
+result = "чётное" if number % 2 == 0 else "нечётное"
+print(f"Число {number} — {result}.")
+
+
+# Напишите программу, которая:
+#
+# Создаёт словарь inventory с начальными данными:
+# {"apples": 10, "bananas": 5, "oranges": 8}
+#
+# Запрашивает у пользователя название товара (ключ) и количество (целое число) через input().
+#
+# Проверяет, есть ли такой ключ в словаре, используя оператор in.
+#
+# Если ключ есть, то увеличивает его значение на введённое количество (обновляет словарь).
+#
+# Если ключа нет, то добавляет новый элемент в словарь с этим ключом и введённым количеством.
+#
+# В конце, используя цикл while, выводит на экран все элементы словаря в формате "<ключ>: <значение>" (каждый на новой строке), пока не будут выведены все. Для этого:
+#
+# Создайте список ключей словаря.
+#
+# Используйте переменную-счётчик (индекс) для прохода по списку.
+#
+# Выход из цикла должен происходить, когда счётчик достигнет длины списка ключей.
+
+inventory = {"apples": 10, "bananas": 5, "oranges": 8}
+client_key, client_value = input("Товар: "), input("Кол-во: ")
+if client_key in inventory.keys():
+    inventory[client_key] += int(client_value)
+else:
+    inventory[client_key] = int(client_value)
+numbers = len(inventory)
+iteration_number = 0
+inventory_list = []
+for key in inventory.keys():
+    inventory_list.append(key)
+while iteration_number < numbers:
+    print(f"{inventory_list[iteration_number]} : {inventory[inventory_list[iteration_number]]}")
+    iteration_number += 1

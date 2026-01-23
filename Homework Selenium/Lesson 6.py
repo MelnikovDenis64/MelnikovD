@@ -11,6 +11,7 @@ options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 # Кастомный юзер-агент:
 options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36")
+
 options.page_load_strategy = "eager"
 driver = webdriver.Chrome(options=options)
 

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 5 homework (Selenium)">
-      <change afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 6.py" afterDir="false" />
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 6 homework (Selenium)">
+      <change afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +77,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD\Homework Selenium" />
+      <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD" />
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD\Homework" />
     </key>
   </component>
@@ -293,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768578821364</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add Lesson 6 homework (Selenium)">
+      <option name="closed" value="true" />
+      <created>1768752245044</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1768752245044</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -317,6 +328,7 @@
     <MESSAGE value="Added Lesson 4 homework (Selenium)" />
     <MESSAGE value="Added Consolidation homework (Python)" />
     <MESSAGE value="Add Lesson 5 homework (Selenium)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 5 homework (Selenium)" />
+    <MESSAGE value="Add Lesson 6 homework (Selenium)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 6 homework (Selenium)" />
   </component>
 </project>

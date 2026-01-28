@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 6 homework (Selenium)">
-      <change afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cookies_manager.py" afterDir="false" />
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 7 homework (Selenium)">
+      <change afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework Selenium/Lesson 7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/cookies_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework Selenium/cookies_manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768752245044</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Add Lesson 7 homework (Selenium)">
+      <option name="closed" value="true" />
+      <created>1769182796128</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1769182796128</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -329,6 +337,7 @@
     <MESSAGE value="Added Consolidation homework (Python)" />
     <MESSAGE value="Add Lesson 5 homework (Selenium)" />
     <MESSAGE value="Add Lesson 6 homework (Selenium)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 6 homework (Selenium)" />
+    <MESSAGE value="Add Lesson 7 homework (Selenium)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 7 homework (Selenium)" />
   </component>
 </project>

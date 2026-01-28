@@ -1,3 +1,5 @@
+# for Lesson 7 use
+
 import json
 from selenium.webdriver.chrome.webdriver import WebDriver
 

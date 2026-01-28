@@ -1,0 +1,4 @@
+title: Random book
+author: Random author
+year: 1998
+pages: 300

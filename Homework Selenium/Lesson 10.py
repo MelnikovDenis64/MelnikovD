@@ -13,9 +13,9 @@ options.add_experimental_option("prefs", {
 options.page_load_strategy = 'eager'
 driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 10, poll_frequency=1)
-
 driver.get("https://www.saucedemo.com")
 
+# Экран Авторизации
 USERNAME_INPUT = driver.find_element(By.XPATH, "//input[@data-test='username']")
 PASSWORD_INPUT = driver.find_element(By.XPATH, "//input[@data-test='password']")
 LOGIN_BUTTON = driver.find_element(By.XPATH, "//input[@data-test='login-button']")
@@ -24,18 +24,24 @@ USERNAME_INPUT.send_keys("standard_user")
 PASSWORD_INPUT.send_keys("secret_sauce")
 LOGIN_BUTTON.click()
 
+# Экран Витрины
 current_url = driver.current_url
 current_title = driver.title
 assert current_url == "https://www.saucedemo.com/inventory.html" and current_title == "Swag Labs", "Переход на неверную страницу"
 
-ADD_FIRST_PRODUCT_BUTTON = driver.find_element(By.XPATH, "//button[@data-test='add-to-cart-sauce-labs-backpack']")
-ITEM_PRICE = driver.find_element(By.XPATH, "//div[@data-test='inventory-item-price']")
+ADD_BACKPACK_PRODUCT_BUTTON = driver.find_element(By.XPATH, "//button[@data-test='add-to-cart-sauce-labs-backpack']")
+ADD_BIKE_PRODUCT_BUTTON = driver.find_element(By.XPATH, "//button[@data-test='add-to-cart-sauce-labs-bike-light']")
 CART_TRANSITION_BUTTON = driver.find_element(By.XPATH, "//a[@class='shopping_cart_link']")
 
-item_price = ITEM_PRICE.text
-ADD_FIRST_PRODUCT_BUTTON.click()
+ADD_BACKPACK_PRODUCT_BUTTON.click()
+ADD_BIKE_PRODUCT_BUTTON.click()
+
+PRODUCT_COUNT = driver.find_element(By.XPATH, "//span[@data-test='shopping-cart-badge']")
+assert PRODUCT_COUNT.text == "2", "Неверное кол-во товаров в корзине"
+
 CART_TRANSITION_BUTTON.click()
 
+# Экран Корзины
 current_url = driver.current_url
 current_title = driver.title
 assert current_url == "https://www.saucedemo.com/cart.html" and current_title == "Swag Labs", "Переход на неверную страницу"
@@ -43,6 +49,7 @@ assert current_url == "https://www.saucedemo.com/cart.html" and current_title ==
 CHECKOUT_BUTTON = driver.find_element(By.XPATH, "//button[@data-test='checkout']")
 CHECKOUT_BUTTON.click()
 
+# Экран 1 шага оформления заказа (Ввод ФИ и Индекса)
 current_url = driver.current_url
 current_title = driver.title
 assert current_url == "https://www.saucedemo.com/checkout-step-one.html" and current_title == "Swag Labs", "Переход на неверную страницу"
@@ -57,27 +64,37 @@ LAST_NAME_INPUT.send_keys("Melnikov")
 ZIP_INPUT.send_keys("413100")
 CONTINUE_BUTTON.click()
 
+# Экран подтверждения заказа и расчета итоговой стоимости
 ITEM_TOTAL = ("xpath", "//div[@data-test='subtotal-label']")
+TAX = ("xpath", "//div[@data-test='tax-label']")
+TOTAL = ("xpath", "//div[@data-test='total-label']")
 wait.until(EC.visibility_of_element_located(ITEM_TOTAL))
-item_total = driver.find_element(By.XPATH, "//div[@data-test='subtotal-label']").text
+wait.until(EC.visibility_of_element_located(TAX))
+wait.until(EC.visibility_of_element_located(TOTAL))
+item_total_float = float(driver.find_element(*ITEM_TOTAL).text[13:])
+tax_float = float(driver.find_element(*TAX).text[6:])
+total_float_fact = float(driver.find_element(*TOTAL).text[8:])
+total_float = item_total_float + tax_float
+
 current_url = driver.current_url
 current_title = driver.title
-assert item_price in item_total, "Цена на витрине не соответствует цене в корзине"
 assert current_url == "https://www.saucedemo.com/checkout-step-two.html" and current_title == "Swag Labs", "Переход на неверную страницу"
+assert total_float == total_float_fact, "Некорректный расчет итоговой стоимости"
 
 FINISH_BUTTON = driver.find_element(By.XPATH, "//button[@data-test='finish']")
 FINISH_BUTTON.click()
 
+# Финальный экран успешной отправки заявки
 current_url = driver.current_url
 current_title = driver.title
 complete_header_text = driver.find_element(By.XPATH, "//h2[@data-test='complete-header']").text
-assert item_price in item_total, "Цена на витрине не соответствует цене в корзине"
 assert current_url == "https://www.saucedemo.com/checkout-complete.html" and current_title == "Swag Labs", "Переход на неверную страницу"
 assert complete_header_text == "Thank you for your order!", "Неверный заголовок успешного экрана"
 
 BACK_HOME_BUTTON = driver.find_element(By.XPATH, "//button[@data-test='back-to-products']")
 BACK_HOME_BUTTON.click()
 
+# Возврат на Витрину
 current_url = driver.current_url
 current_title = driver.title
 assert current_url == "https://www.saucedemo.com/inventory.html" and current_title == "Swag Labs", "Переход на неверную страницу"

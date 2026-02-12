@@ -23,6 +23,7 @@ LOGIN_BUTTON = driver.find_element(By.XPATH, "//input[@data-test='login-button']
 
 time.sleep(1)
 
+
 USERNAME_INPUT.clear()
 USERNAME_INPUT.send_keys("standard_user")
 assert USERNAME_INPUT.get_attribute("value") == 'standard_user'

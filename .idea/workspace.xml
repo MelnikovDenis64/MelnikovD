@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 10 homework final (Selenium)" />
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 10 homework final (Selenium)">
+      <change afterPath="$PROJECT_DIR$/homework_pytest/test_lesson_1_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Consolidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Consolidation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 11.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 8.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/Lesson 9.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/Lesson 9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/book.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/book.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/draft.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/exam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Python/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homework_python/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 10.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 6.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 7.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 8.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/Lesson 9.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/Lesson 9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework Selenium/cookies_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_selenium/cookies_manager.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +57,12 @@
     &quot;assignee&quot;: &quot;MelnikovDenis64&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MelnikovDenis64/MelnikovD",
-    "accountId": "a9cc3e66-dbd3-4228-b4fe-9523a612d345"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MelnikovDenis64/MelnikovD&quot;,
+    &quot;accountId&quot;: &quot;a9cc3e66-dbd3-4228-b4fe-9523a612d345&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -43,38 +74,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Combining lessons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Complex tasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Consolidation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.draft.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exam.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.test_input_field.executor": "Run",
+    "Python tests.Python tests for test_lesson_1-2.TestExample.test_input_field.executor": "Run",
+    "Python.Combining lessons.executor": "Run",
+    "Python.Complex tasks.executor": "Run",
+    "Python.Consolidation.executor": "Run",
+    "Python.Lesson 1.executor": "Run",
+    "Python.Lesson 10.executor": "Run",
+    "Python.Lesson 11.executor": "Run",
+    "Python.Lesson 2.executor": "Run",
+    "Python.Lesson 3.executor": "Run",
+    "Python.Lesson 4.executor": "Run",
+    "Python.Lesson 5.executor": "Run",
+    "Python.Lesson 6.executor": "Run",
+    "Python.Lesson 7.executor": "Run",
+    "Python.Lesson 8.executor": "Run",
+    "Python.Lesson 9.executor": "Run",
+    "Python.draft.executor": "Run",
+    "Python.exam.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD\Homework Selenium" />
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD" />
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD\Homework" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample">
+    <configuration name="Python tests for homework_pytest.test_lesson_1_2.TestExample" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;homework_pytest.test_lesson_1_2.TestExample&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for homework_pytest.test_lesson_1_2.TestExample.test_input_field" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;homework_pytest.test_lesson_1_2.TestExample.test_input_field&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample" />
+        <item itemvalue="Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.test_input_field" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -339,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770036957194</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Add Lesson 10 homework final (Selenium)">
+      <option name="closed" value="true" />
+      <created>1770912319765</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1770912319765</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,5 +1,7 @@
-from selenium import webdriver
+import time
 import pytest
+from selenium import webdriver
+
 
 class TestExample:
 
@@ -23,6 +25,7 @@ class TestExample:
 
     @pytest.mark.regres
     def test_input_field(self):
+        time.sleep(2)
         self.driver.find_element(*self.USERNAME).send_keys('Denis')
         self.driver.find_element(*self.EMAIL).send_keys('Denis@mail.com')
         self.driver.find_element(*self.ADDRESS_CURR).send_keys('Test1234')

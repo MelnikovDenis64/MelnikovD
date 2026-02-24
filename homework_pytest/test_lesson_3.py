@@ -2,7 +2,6 @@ import time
 import pytest
 from selenium.webdriver.common.by import By
 
-
 class TestExample2:
 
     @pytest.mark.usefixtures('request_example')

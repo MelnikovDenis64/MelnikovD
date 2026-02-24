@@ -23,7 +23,7 @@ class TestExample:
     def test_url(self):
         assert self.driver.current_url == "https://demoqa.com/text-box", 'Неверный url'
 
-    @pytest.mark.regres
+    @pytest.mark.regress
     def test_input_field(self):
         time.sleep(2)
         self.driver.find_element(*self.USERNAME).send_keys('Denis')

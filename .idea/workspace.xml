@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add Lesson 3 homework (pytest)">
-      <change afterPath="$PROJECT_DIR$/homework_pytest/test_buy_product.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add homework test_buy_product (allure)">
+      <change afterPath="$PROJECT_DIR$/allure-results/enviroment.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_pytest/test_lesson_1_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_pytest/test_lesson_1_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_pytest/test_lesson_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_pytest/test_lesson_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -469,11 +466,18 @@
       <option name="project" value="LOCAL" />
       <updated>1771353414827</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Add homework test_buy_product (allure)">
+      <option name="closed" value="true" />
+      <created>1771958921930</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1771958921930</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add Lesson 4 homework" />
     <MESSAGE value="Add Lesson 5 homework" />
     <MESSAGE value="Refactor homework folder" />
     <MESSAGE value="Add lesson 6 Homework" />
@@ -498,6 +502,7 @@
     <MESSAGE value="Add Lesson 10 homework final (Selenium)" />
     <MESSAGE value="Add Lesson 1-2 homework (pytest)" />
     <MESSAGE value="Add Lesson 3 homework (pytest)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson 3 homework (pytest)" />
+    <MESSAGE value="Add homework test_buy_product (allure)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add homework test_buy_product (allure)" />
   </component>
 </project>

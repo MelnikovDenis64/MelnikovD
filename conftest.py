@@ -1,3 +1,5 @@
+import os
+
 import pytest
 from selenium import webdriver
 from collections import namedtuple
@@ -28,7 +30,8 @@ def driver(request):
 def setup_environment_properties():
     properties = {
         "STAGE": os.environ["STAGE"],
-        "BROWSER": os.environ["BROWSER"]
+        "BROWSER": os.environ["BROWSER"],
+        "OS": os.environ["OS"]
     }
     with open("allure-results/environment.properties", "w") as file:
         for key, value in properties.items():

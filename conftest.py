@@ -7,7 +7,7 @@ from faker import Faker
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-@pytest.fixture(autouse=True)
+@pytest.fixture()
 def driver(request):
     options = webdriver.ChromeOptions()
     options.page_load_strategy = 'eager'
@@ -26,7 +26,7 @@ def driver(request):
 
 
 
-@pytest.fixture(autouse=True)
+@pytest.fixture()
 def setup_environment_properties():
     properties = {
         "STAGE": os.environ["STAGE"],

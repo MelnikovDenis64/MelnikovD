@@ -1,16 +1,11 @@
 import pytest
 import allure
-# from base.base_test import BaseTest
-from pages.login_page import LoginPage
-from pages.welcome_page import WelcomePage
-from pages.start_page import StartPage
+from base.base_test import BaseTest
+import time
 
-class TestLoginProcess:
 
-    def setup_method(self):
-        self.login_page = LoginPage(self.driver)
-        self.start_page = StartPage(self.driver)
-        self.welcome_page = WelcomePage(self.driver)
+class TestLoginProcess(BaseTest):
+
 
     def test_login_in_account(self):
         self.start_page.open()

@@ -8,6 +8,7 @@ class LoginPage(BasePage):
     SEND_BUTTON = "//button[@id='loginformsubmit']"
 
     def login(self):
+        self.wait.until(self.EC.visibility_of_element_located(self.LOGIN_INPUT))
         self.driver.find_element(*self.LOGIN_INPUT).send_keys("hadentus@gmail.com")
         self.driver.find_element(*self.PASSWORD_INPUT).send_keys("Test1234")
         self.driver.find_element(*self.SEND_BUTTON).click()

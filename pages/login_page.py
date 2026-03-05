@@ -1,5 +1,5 @@
 from base.base_page import BasePage
-
+import allure
 class LoginPage(BasePage):
 
     PAGE_URL = "https://www.freeconferencecall.com/ru/ru/login"
@@ -7,6 +7,7 @@ class LoginPage(BasePage):
     PASSWORD_INPUT = "//input[@id='password']"
     SEND_BUTTON = "//button[@id='loginformsubmit']"
 
+    @allure.step("log in")
     def login(self):
         self.wait.until(self.EC.visibility_of_element_located(self.LOGIN_INPUT))
         self.driver.find_element(*self.LOGIN_INPUT).send_keys("hadentus@gmail.com")

@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-
+import allure
 from base.base_page import BasePage
 
 class WelcomePage(BasePage):
@@ -9,6 +9,7 @@ class WelcomePage(BasePage):
     BURGER_BUTTON = "//li[@id='ember537']"
     LOGOUT_BUTTON = "//a[@title='Выйти']"
 
+    @allure.step("Logout")
     def logout(self):
         self.wait.until(self.EC.visibility_of_element_located(self.BURGER_BUTTON))
         self.driver.find_element(*self.BURGER_BUTTON).click()

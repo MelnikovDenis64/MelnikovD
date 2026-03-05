@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add POM">
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add POM one step lection">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/Urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/credentials.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/generators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1f83c024-bcf6-4319-9cb0-00d33049b890-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/92b1750a-7555-422e-8263-50cdb650d58a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/d2a22ddb-4670-4bf9-b53d-4cd194d844f9-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/start_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/start_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/welcome_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/welcome_page.py" afterDir="false" />
@@ -58,47 +58,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_buy_product.TestBuyProduct.test_buy_product.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.test_input_field.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.test_url.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_3.TestExample.test_print_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_input_field.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_print_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_print_namedtuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_lesson_1-2.TestExample.test_input_field.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_login.TestLogin.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_login.TestLogin.test_login_in_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_login.TestLoginProcess.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tests.test_login.TestLoginProcess.test_login_in_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Combining lessons.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Complex tasks.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Consolidation.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lesson 9.executor&quot;: &quot;Run&quot;,
-    &quot;Python.draft.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exam.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Subversion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for homework_pytest.test_buy_product.TestBuyProduct.test_buy_product.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.test_input_field.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.test_url.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_3.TestExample.test_print_info.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_input_field.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_print_info.executor": "Run",
+    "Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_print_namedtuple.executor": "Run",
+    "Python tests.Python tests for test_lesson_1-2.TestExample.test_input_field.executor": "Run",
+    "Python tests.Python tests for tests.test_login.TestLogin.executor": "Run",
+    "Python tests.Python tests for tests.test_login.TestLogin.test_login_in_account.executor": "Run",
+    "Python tests.Python tests for tests.test_login.TestLoginProcess.executor": "Run",
+    "Python tests.Python tests for tests.test_login.TestLoginProcess.test_log.executor": "Run",
+    "Python tests.Python tests for tests.test_login.TestLoginProcess.test_login_in_account.executor": "Run",
+    "Python tests.Python tests for tests.test_login.TestLoginProcess.test_one.executor": "Run",
+    "Python.Combining lessons.executor": "Run",
+    "Python.Complex tasks.executor": "Run",
+    "Python.Consolidation.executor": "Run",
+    "Python.Lesson 1.executor": "Run",
+    "Python.Lesson 10.executor": "Run",
+    "Python.Lesson 11.executor": "Run",
+    "Python.Lesson 2.executor": "Run",
+    "Python.Lesson 3.executor": "Run",
+    "Python.Lesson 4.executor": "Run",
+    "Python.Lesson 5.executor": "Run",
+    "Python.Lesson 6.executor": "Run",
+    "Python.Lesson 7.executor": "Run",
+    "Python.Lesson 8.executor": "Run",
+    "Python.Lesson 9.executor": "Run",
+    "Python.draft.executor": "Run",
+    "Python.exam.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "vcs.Subversion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -107,39 +109,7 @@
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD\Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_login.TestLoginProcess">
-    <configuration name="Python tests for homework_pytest.test_buy_product.TestBuyProduct.test_buy_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="MelnikovD" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;homework_pytest.test_buy_product.TestBuyProduct.test_buy_product&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for homework_pytest.test_lesson_1_2.TestExample.test_url" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="MelnikovD" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;homework_pytest.test_lesson_1_2.TestExample.test_url&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_login.TestLoginProcess.test_log">
     <configuration name="Python tests for tests.test_login.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MelnikovD" />
       <option name="ENV_FILES" value="" />
@@ -172,6 +142,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_login.TestLoginProcess.test_log" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_login.TestLoginProcess.test_log&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_login.TestLoginProcess.test_login_in_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MelnikovD" />
       <option name="ENV_FILES" value="" />
@@ -188,13 +174,29 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for tests.test_login.TestLoginProcess.test_one" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_login.TestLoginProcess.test_one&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess" />
+        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess.test_log" />
         <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess.test_login_in_account" />
+        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess.test_one" />
+        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess" />
         <item itemvalue="Python tests.Python tests for tests.test_login.TestLogin" />
-        <item itemvalue="Python tests.Python tests for homework_pytest.test_lesson_1_2.TestExample.test_url" />
-        <item itemvalue="Python tests.Python tests for homework_pytest.test_buy_product.TestBuyProduct.test_buy_product" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +208,7 @@
     </attachedChunks>
   </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Haden_000\AppData\Roaming\Subversion</configuration>
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -528,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772382299207</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Add POM one step lection">
+      <option name="closed" value="true" />
+      <created>1772560778066</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1772560778066</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -543,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add lesson 6 Homework" />
     <MESSAGE value="Add complex task file and draft file" />
     <MESSAGE value="Add lesson 7 homework" />
     <MESSAGE value="Update lesson 7 homework" />
@@ -568,6 +577,7 @@
     <MESSAGE value="Add homework test_buy_product (allure)" />
     <MESSAGE value="Add setup_environment_properties and enviromen in results" />
     <MESSAGE value="Add POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add POM" />
+    <MESSAGE value="Add POM one step lection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add POM one step lection" />
   </component>
 </project>

@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from allure_commons.types import Severity
 from allure_commons.types import AttachmentType
 
-@pytest.mark.feature_test
+@pytest.mark.feature_test_old
 @allure.epic("Market")
 @allure.feature("Product")
 @allure.story("Buying product")

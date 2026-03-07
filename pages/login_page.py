@@ -1,15 +1,23 @@
 from base.base_page import BasePage
 import allure
+
 class LoginPage(BasePage):
 
-    PAGE_URL = "https://www.freeconferencecall.com/ru/ru/login"
-    LOGIN_INPUT = "//input[@id='login_email']"
-    PASSWORD_INPUT = "//input[@id='password']"
-    SEND_BUTTON = "//button[@id='loginformsubmit']"
+    PAGE_URL = "https://www.saucedemo.com/"
+    USERNAME_INPUT = "//input[@data-test='username']"
+    PASSWORD_INPUT = "//input[@data-test='password']"
+    LOGIN_BUTTON = "//input[@data-test='login-button']"
 
     @allure.step("log in")
     def login(self):
-        self.wait.until(self.EC.visibility_of_element_located(self.LOGIN_INPUT))
-        self.driver.find_element(*self.LOGIN_INPUT).send_keys("hadentus@gmail.com")
-        self.driver.find_element(*self.PASSWORD_INPUT).send_keys("Test1234")
-        self.driver.find_element(*self.SEND_BUTTON).click()
+        username_input = self.driver.find_element(*self.USERNAME_INPUT)
+        password_input = self.driver.find_element(*self.PASSWORD_INPUT)
+        login_button = self.driver.find_element(*self.LOGIN_BUTTON)
+        username_input.clear()
+        username_input.send_keys("standard_user")
+        assert username_input.get_attribute("value") == "standard_user", "Incorrect username"
+        password_input.clear()
+        password_input.send_keys("secret_sauce")
+        assert password_input.get_attribute("value") == "secret_sauce", "Incorrect password"
+        login_button.click()
+

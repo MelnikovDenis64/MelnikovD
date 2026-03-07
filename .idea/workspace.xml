@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add POM one step lection">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/credentials.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/generators.py" afterDir="false" />
+    <list default="true" id="1f1a1bf1-b8b9-4969-9a5b-d5b8a100480b" name="Changes" comment="Add POM 2 step lection">
+      <change afterPath="$PROJECT_DIR$/pages/checkout_one_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/checkout_two_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/complete_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_pytest/test_buy_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_pytest/test_buy_product_old.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/start_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/start_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/welcome_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/welcome_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/start_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/inventory_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/welcome_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_buy_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,8 @@
     "Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_print_info.executor": "Run",
     "Python tests.Python tests for homework_pytest.test_lesson_3.TestExample2.test_print_namedtuple.executor": "Run",
     "Python tests.Python tests for test_lesson_1-2.TestExample.test_input_field.executor": "Run",
+    "Python tests.Python tests for tests.test_buy_product.TestBuyProduct.test_positive_buy.executor": "Run",
+    "Python tests.Python tests for tests.test_buy_product.TestBuyProduct.test_remove_product.executor": "Run",
     "Python tests.Python tests for tests.test_login.TestLogin.executor": "Run",
     "Python tests.Python tests for tests.test_login.TestLogin.test_login_in_account.executor": "Run",
     "Python tests.Python tests for tests.test_login.TestLoginProcess.executor": "Run",
@@ -109,8 +112,8 @@
       <recent name="C:\Users\dVmelnikov\PycharmProjects\MelnikovD\Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for tests.test_login.TestLoginProcess.test_log">
-    <configuration name="Python tests for tests.test_login.TestLogin" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_buy_product.TestBuyProduct.test_remove_product">
+    <configuration name="Python tests for tests.test_buy_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="MelnikovD" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,7 +125,103 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_login.TestLogin&quot;" />
+      <option name="_new_target" value="&quot;tests.test_buy_product&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_buy_product.TestBuyProduct.test_positive_buy" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_buy_product.TestBuyProduct.test_positive_buy&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_buy_product.TestBuyProduct.test_remove_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_buy_product.TestBuyProduct.test_remove_product&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_buy_product.TestLoginProcess" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_buy_product.TestLoginProcess&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_buy_product.TestLoginProcess" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_buy_product.TestLoginProcess&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_buy_product.TestLoginProcess" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_buy_product.TestLoginProcess&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_buy_product.TestLoginProcess.test_login_in_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="MelnikovD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_buy_product.TestLoginProcess.test_login_in_account&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -158,45 +257,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_login.TestLoginProcess.test_login_in_account" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="MelnikovD" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_login.TestLoginProcess.test_login_in_account&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for tests.test_login.TestLoginProcess.test_one" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="MelnikovD" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_login.TestLoginProcess.test_one&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess.test_log" />
-        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess.test_login_in_account" />
-        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess.test_one" />
-        <item itemvalue="Python tests.Python tests for tests.test_login.TestLoginProcess" />
-        <item itemvalue="Python tests.Python tests for tests.test_login.TestLogin" />
+        <item itemvalue="Python tests.Python tests for tests.test_buy_product.TestBuyProduct.test_remove_product" />
+        <item itemvalue="Python tests.Python tests for tests.test_buy_product.TestBuyProduct.test_positive_buy" />
+        <item itemvalue="Python tests.Python tests for tests.test_buy_product.TestLoginProcess" />
+        <item itemvalue="Python tests.Python tests for tests.test_buy_product.TestLoginProcess.test_login_in_account" />
+        <item itemvalue="Python tests.Python tests for tests.test_buy_product.TestLoginProcess" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +605,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772560778066</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add POM 2 step lection">
+      <option name="closed" value="true" />
+      <created>1772734504382</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1772734504382</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,7 +628,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add complex task file and draft file" />
     <MESSAGE value="Add lesson 7 homework" />
     <MESSAGE value="Update lesson 7 homework" />
     <MESSAGE value="Add lesson 8 homework" />
@@ -578,6 +652,7 @@
     <MESSAGE value="Add setup_environment_properties and enviromen in results" />
     <MESSAGE value="Add POM" />
     <MESSAGE value="Add POM one step lection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add POM one step lection" />
+    <MESSAGE value="Add POM 2 step lection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add POM 2 step lection" />
   </component>
 </project>
